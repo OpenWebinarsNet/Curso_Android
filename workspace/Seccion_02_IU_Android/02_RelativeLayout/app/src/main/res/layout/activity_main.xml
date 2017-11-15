@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.miguelcr.a02_relativelayout.MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imageViewFotoAveria"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="37dp"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop="33dp"
+        app:srcCompat="@mipmap/ic_launcher" />
+
+    <TextView
+        android:id="@+id/textViewTituloAveria"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="23dp"
+        android:layout_marginStart="23dp"
+        android:text="TextView"
+        android:layout_alignTop="@+id/imageViewFotoAveria"
+        android:layout_toRightOf="@+id/imageViewFotoAveria"
+        android:layout_toEndOf="@+id/imageViewFotoAveria" />
+
+    <TextView
+        android:id="@+id/textViewModeloCoche"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textViewTituloAveria"
+        android:layout_alignStart="@+id/textViewTituloAveria"
+        android:layout_below="@+id/textViewTituloAveria"
+        android:layout_marginTop="8dp"
+        android:text="TextView" />
+</RelativeLayout>

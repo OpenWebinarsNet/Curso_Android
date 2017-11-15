@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">01_HelloMaps</string>
+    <string name="title_activity_maps">Map</string>
+</resources>

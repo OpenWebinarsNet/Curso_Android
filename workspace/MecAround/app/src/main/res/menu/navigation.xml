@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_averias"
+        android:icon="@drawable/ic_directions_car_black_24dp"
+        android:title="Averias" />
+
+    <item
+        android:id="@+id/navigation_talleres"
+        android:icon="@drawable/ic_power_black_24dp"
+        android:title="Talleres" />
+
+    <item
+        android:id="@+id/navigation_perfil"
+        android:icon="@drawable/ic_account_circle_black_24dp"
+        android:title="Perfil" />
+
+</menu>

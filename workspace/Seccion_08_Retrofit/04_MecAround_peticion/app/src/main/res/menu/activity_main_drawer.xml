@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_averias"
+            android:icon="@drawable/ic_assignment_black_24dp"
+            android:title="Averías" />
+        <item
+            android:id="@+id/nav_talleres"
+            android:icon="@drawable/ic_directions_car_black_24dp"
+            android:title="Talleres" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Compartir" />
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_exit_to_app_black_24dp"
+                android:title="Salir" />
+        </menu>
+    </item>
+
+</menu>

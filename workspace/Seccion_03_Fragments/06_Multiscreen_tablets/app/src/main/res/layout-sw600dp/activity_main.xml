@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:id="@+id/contenedor"
+    android:orientation="horizontal">
+
+
+    <fragment
+        android:id="@+id/fragment3"
+        android:name="com.miguelcr.a06_multiscreen_tablets.BFragment"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+
+    <fragment
+        android:id="@+id/fragment2"
+        android:name="com.miguelcr.a06_multiscreen_tablets.AFragment"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+</LinearLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/action_nueva_averia"
+        android:icon="@drawable/ic_add_white_24dp"
+        android:title="Nueva avería"
+        app:showAsAction="ifRoom"
+        android:orderInCategory="1"/>
+
+
+    <item
+        android:id="@+id/action_show_map"
+        android:icon="@drawable/ic_place_white_24dp"
+        android:title="Show map"
+        app:showAsAction="ifRoom"
+        android:visible="false"
+        android:orderInCategory="2"/>
+
+    <item
+        android:id="@+id/action_logout"
+        android:icon="@drawable/ic_exit_to_app_white_24dp"
+        android:title="Salir"
+        app:showAsAction="ifRoom"
+        android:orderInCategory="3"/>
+</menu>

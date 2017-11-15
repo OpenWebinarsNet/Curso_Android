@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.miguelcr.a04_checkbox.MainActivity">
+
+    <RadioGroup
+        android:id="@+id/radioGroupAverias"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    <RadioButton
+        android:onClick="tipoAveriaClicked"
+        android:id="@+id/checkBoxChapa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chapa y pintura"
+        tools:layout_editor_absoluteX="67dp"
+        tools:layout_editor_absoluteY="56dp" />
+
+    <RadioButton
+        android:onClick="tipoAveriaClicked"
+        android:id="@+id/checkBoxCristal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rotura cristal" />
+
+    <RadioButton
+        android:onClick="tipoAveriaClicked"
+        android:id="@+id/checkBoxMecanica"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Avería mecánica" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/button"
+        android:onClick="conocerOpcionMarcada"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="¿Tipo avería?" />
+
+
+</LinearLayout>
